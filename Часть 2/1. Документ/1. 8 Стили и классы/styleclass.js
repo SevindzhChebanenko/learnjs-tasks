@@ -14,7 +14,6 @@ function showNotification({ top = 0, right = 0, className, html }) {
   setTimeout(() => notification.remove(), 1500);
 }
 
-// test it
 let i = 1;
 setInterval(() => {
   showNotification({
